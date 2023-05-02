@@ -1,0 +1,35 @@
+@use '../mixins/responsive.scss' as *;
+
+.section__clipboard{
+    padding: 0 32px;
+    text-align: center;
+    margin-bottom: 170px;
+
+    @include responsive(desktop){
+        padding: 0 355px;
+    }
+
+    &--title{
+        font-weight: var(--font-weight-semibold);
+        font-size: 28px;
+        color: var(--text-color);
+        margin: 0;
+
+        @include responsive(desktop){
+            font-size: 36px;
+        }
+    }
+
+    &--text{
+        font-weight: var(--font-weight-regular);
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--text-color-secundary);
+        margin-bottom: 45px;
+
+        @include responsive(desktop){
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+}

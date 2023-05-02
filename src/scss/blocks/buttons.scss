@@ -1,1 +1,22 @@
+@use '../mixins/responsive.scss' as *;
 
+.button{
+    padding: 13px 50px;
+    border-radius: 50px;
+    font-weight: var(--font-weight-semibold);
+    font-size: 18px;
+    color: var(--white);
+    box-shadow: -1px -1px 10px black;
+
+    @include responsive(desktop){
+        padding: 13px 36px;
+    }
+}
+
+.button__ios{
+    background-color: var(--color-primary);
+}
+
+.button__mac{
+    background-color: var(--color-secundary);
+}

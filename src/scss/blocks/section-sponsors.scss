@@ -1,0 +1,16 @@
+@use '../mixins/responsive.scss' as *;
+
+.section__sponsors{
+    padding: 0 118px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 170px;
+
+    @include responsive(desktop){
+        padding: 0 165px;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

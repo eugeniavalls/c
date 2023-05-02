@@ -1,1 +1,47 @@
 /* ESTILOS DEL FOOTER */
+
+@use '../mixins/responsive.scss' as *;
+
+.footer{
+    background-color: var(--background-footer);
+    padding: 52px 107px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    @include responsive(desktop){
+        padding: 40px 165px;
+        text-align: left;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    &__logo{
+        width: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+    }
+
+    &__text{
+        font-weight: var(--font-weight-regular);
+        font-size: 18px;
+        color: var(--text-color);
+    }
+
+    &__icons{
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 48px;
+
+        @include responsive(desktop){
+            width: 120px;
+            margin-top: 0;
+        }
+    }
+}

@@ -2,13 +2,112 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <title>Clipboard</title>
   </head>
   <body>
+    <header class="header">
+      <img class="header__logo" src="./assets/images/logo.svg" alt="logo">
+      <h1 class="header__title">A history of everything you copy</h1>
+      <p class="header__text">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+      <div class="header__buttons">
+        <a class="button button__ios" href="">Download for iOs</a>
+        <a class="button button__mac" href="">Download for Mac</a>
+      </div>
+    </header>
+
+    <section class="section__initial">
+      <h2 class="section__initial--title">Keep track of your snippets</h2>
+      <p class="section__initial--text title-text">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+      <div class="section__initial--container">
+        <img class="section__initial--image" src="./assets/images/image-computer.png" alt="image-computer">
+        <div class="section__initial--box">
+          <div class="section__initial--texts">
+            <h2 class="section__initial--subtitle">Quick Search</h2>
+            <p class="section__initial--text">Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
+
+          <div class="section__initial--texts">
+            <h2 class="section__initial--subtitle">iCloud Sync</h2>
+            <p class="section__initial--text">Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+
+          <div class="section__initial--texts">
+            <h2 class="section__initial--subtitle">Complete History</h2>
+            <p class="section__initial--text">Retrieve any snippets from the first moment you started using the app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__access">
+      <h2 class="section__access--title">Access Clipboard Anywhere</h2>
+      <p class="section__access--text">Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+      <img class="section__access--image" src="./assets/images/image-devices.png" alt="image-devices">
+    </section>
+
+    <section class="section__icons">
+      <h2 class="section__icons--title">Supercharge your workflow</h2>
+      <p class="section__icons--text">We’ve got the tools to boost your productivity.</p>
+      <div class="section__icons--container">
+        <div class="section__icons--box">
+          <img class="section__icons--icon" src="./assets/images/icon-blacklist.svg" alt="icon-blacklist">
+          <h2 class="section__icons--subtitle">Create blacklists</h2>
+          <p class="section__icons--text">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        </div>
+        <div class="section__icons--box">
+          <img class="section__icons--icon" src="./assets/images/icon-text.svg" alt="icon-text">
+          <h2 class="section__icons--subtitle">Plain text snippes</h2>
+          <p class="section__icons--text">Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+        <div class="section__icons--box">
+          <img class="section__icons--icon" src="./assets/images/icon-preview.svg" alt="icon-preview">
+          <h2 class="section__icons--subtitle">Sneak preview</h2>
+          <p class="section__icons--text">Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__sponsors">
+      <img class="sponsors__logo" src="./assets/images/logo-google.png" alt="logo-google">
+      <img class="sponsors__logo" src="./assets/images/logo-ibm.png" alt="logo-ibm">
+      <img class="sponsors__logo" src="./assets/images/logo-microsoft.png" alt="logo-microsoft">
+      <img class="sponsors__logo" src="./assets/images/logo-hp.png" alt="logo-hp">
+      <img class="sponsors__logo" src="./assets/images/logo-vector-graphics.png" alt="logo-vector">
+    </section>
+
+    <section class="section__clipboard">
+      <h2 class="section__clipboard--title">Clipboard for iOs and Mac Os</h2>
+      <p class="section__clipboard--text">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+      <div class="header__buttons">
+        <a class="button button__ios" href="">Download for iOs</a>
+        <a class="button button__mac" href="">Download for Mac</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <img class="footer__logo" src="./assets/images/logo.svg" alt="logo">
+      <div class="footer__texts">
+        <p class="footer__text">FAQs</p>
+        <p class="footer__text">Contact Us</p>
+      </div>
+      <div class="footer__texts">
+        <p class="footer__text">Privacy Policy</p>
+        <p class="footer__text">Press Kit</p>
+      </div>
+      <div class="footer__texts">
+        <p class="footer__text">Install Guide</p>
+      </div>
+      <div class="footer__icons">
+        <img class="footer__icon" src="./assets/images/icon-facebook.svg" alt="icon-facebook">
+        <img class="footer__icon" src="./assets/images/icon-twitter.svg" alt="icon-twitter">
+        <img class="footer__icon" src="./assets/images/icon-instagram.svg" alt="icon-instagram">
+      </div>
+    </footer>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

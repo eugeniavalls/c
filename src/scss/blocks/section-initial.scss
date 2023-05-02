@@ -1,0 +1,76 @@
+@use '../mixins/responsive.scss' as *;
+
+.section__initial{
+    padding: 0 32px;
+    text-align: center;
+    margin-bottom: 150px;
+
+    @include responsive(desktop){
+        padding: 0 114px;
+    }
+
+    &--title{
+        font-weight: var(--font-weight-semibold);
+        font-size: 28px;
+        color: var(--text-color);
+        margin: 0;
+
+        @include responsive(desktop){
+            font-size: 36px;
+        }
+    }
+
+    &--text{
+        font-weight: var(--font-weight-regular);
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--text-color-secundary);
+        margin-bottom: 65px;
+
+        @include responsive(desktop){
+            text-align: left;
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 80px;
+        }
+    }
+
+    &--container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3.5rem;
+
+        @include responsive(desktop){
+            flex-direction: row;
+        }
+    }
+
+    &--image{
+        width: 750px;
+    }
+
+    &--texts{
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+
+        @include responsive(desktop){
+            align-items: start;
+        }
+    }
+
+    &--subtitle{
+        font-weight: var(--font-weight-semibold);
+        font-size: 24px;
+        color: var(--text-color);
+        margin: 0;
+    }
+}
+
+.title-text{
+    @include responsive(desktop){
+        text-align: center;
+        padding: 0 240px;
+    }
+}

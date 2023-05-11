@@ -1,6 +1,6 @@
 # PRÁCTICA RESPONSIVE CON METODOLOGÍA BEM Y LENGUAJE SASS
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/01.png)
 
 ## Ejemplo en vivo
 
@@ -32,9 +32,17 @@ Uso de flex-direction row-reverse.
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/02.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/03.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/04.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/05.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/06.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/07.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/08.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/09.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/10.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/11.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica4-puente/main/src/assets/screenshots/12.png)
 
 ## Autor ✒️
 
